@@ -1,0 +1,167 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #b05151;
+    height: auto;
+}
+p{
+    font-size: 20px;
+    color: #d0ff00;
+}
+
+header {
+    margin: 0 auto;
+    padding: 2rem 0;
+    background-color: #004a30;
+    background-image: url(../imagenes/Estanteria.jpg);
+    color: #d0ff00;
+    text-align: center;
+    
+}
+main {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #b05151;
+    height: auto;
+}
+
+
+
+.ver-detalle {
+    display: flex;
+    margin: 20px auto;
+    padding: 10px 10px;
+    background-color: #8e03ff;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.ver-detalle:hover {
+    background-color: #ff0000;
+}
+.detalles_del_producto{
+    text-align: center;
+}
+.detalles_del_producto p{
+    
+    text-align: center;
+}
+
+.detalles_del_producto img{
+    max-width: 100%;
+    height: auto;
+}
+
+.volver {
+    display: flex;
+    margin: 10px auto;
+    padding: 7px 15px;
+    background-color: #8e03ff;
+    color: #00eeff;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.volver:hover {
+    background-color: #ff0000;
+}
+
+/* Estilo para la lista de productos */
+.Juegos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}
+
+
+.Juego {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    background-color: #49a57a;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Juego:hover {
+    transform: translateY(+2px);
+}
+
+.Juego h2 {
+    font-size: 1rem;
+    margin: 10px;
+    text-align: center;
+}
+
+.Juego p {
+    margin: 0 10px 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.JuegoAComprar{
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.estrella-llena {
+    color: gold;
+    font-size: 30px;
+    margin-right: 4px;
+    height: auto;
+}
+
+.estrella-vacia {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-right: 4px;
+    height: auto;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    background-color: rgb(45, 146, 164);
+    color: rgb(106, 255, 0);
+}
+.red_social {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+    .Juegos {
+        flex-direction: column;
+    }
+    .Juego {
+        width: 100%;
+    }
+
+} 
+
+@media (min-width: 300px){
+    body{
+        flex-direction: column; 
+    }
+    .footer{
+        flex-direction: column;
+    }
+}

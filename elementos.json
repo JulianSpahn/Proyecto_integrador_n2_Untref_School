@@ -1,0 +1,73 @@
+[
+    {
+        "id": "Juego_1",
+        "nombre": "Left 4 Dead 2",
+        "imagen": "imagenes/Left_4_dead_2.jpg",
+        "precio": 800.00,
+        "estrellas": "*****",
+        "detalles": "Shooter de zombies, disponible para PC y Xbox 360"
+    },
+    {
+        "id": "Juego_2",
+        "nombre": "GTA V",
+        "imagen": "imagenes/grand-theft-auto-v.jpg",
+        "precio": 2000.00,
+        "estrellas": "***",
+        "detalles": "Juego estilo sandbox donde haces misiones de todo tipo, incluye modo Online, disponible para PS3, PS4, PS5, Xbox 360, Xbox One, Xbox Series y PC"
+    },
+    {
+        "id": "Juego_3",
+        "nombre": "Genshin Impact",
+        "imagen": "imagenes/Genshin_Impact.jpg",
+        "precio": 3500.00,
+        "estrellas": "*****",
+        "detalles": "Juego de rol estilo ánime donde controlas una amplia variedad de personajes mientras disfrutas de una gran historia, disponible para PS4, PS5, Celulares y PC"
+    },
+    {
+        "id": "Juego_4",
+        "nombre": "CTR",
+        "imagen": "imagenes/crash-team-racing-nitrofueled.jpg",
+        "precio": 4800.00,
+        "estrellas": "*",
+        "detalles": "Juego de carreras de la saga Crash Bandicoot, aqui podras jugar carreras contra otros 7 jugadores, disponible en PS4 y PS5"
+    },
+    {
+        "id": "Juego_5",
+        "nombre": "Naruto Legacy",
+        "imagen": "imagenes/Naruto-Shippuden-Ultimate-Ninja-Storm-Legacy.jpg",
+        "precio": 8000.00,
+        "estrellas": "*****",
+        "detalles": "Coleccion de la saga de juegos Naruto Ultimate Ninja Storm (incluye caja metalica y libro de arte), disponible para PS4, PS%, Xbox One, Xbox Series y PC"
+    },
+    {
+        "id": "Juego_6",
+        "nombre": "Resident Evil 4 Remake Collectors Edition",
+        "imagen": "imagenes/Resident-Evil-4-Remake-Edicion-Coleccionista.jpg",
+        "precio": 12000.00,
+        "estrellas": "*****",
+        "detalles": "Juego mas reciente de la saga Resident Evil, aqui enarnaras a Leon S Kennedy en su micion de rescatar a la hija del presidente de EE.UU., disponible para PC, PS4, PS5 y Xbox Series"
+    },
+    {
+        "id": "Juego_7",
+        "nombre": "JoJo´s all star battle R",
+        "imagen": "imagenes/JoJo's_Bizarre_Adventure_All-Star_Battle_R.jpg",
+        "precio": 5000.00,
+        "estrellas": "****",
+        "detalles": "Juego de peleas basado en el populara anime jojos bizzarre adventure, aqui recordaras varios de los combates mas iconicos de la serie, disponible para PC, PS4, PS5, Xbox One y Xbox Series"
+    },
+    {
+        "id": "Juego_8",
+        "nombre": "Dragon Ball Z Fighters",
+        "imagen": "imagenes/dragon-ball-fighterz.jpg",
+        "precio": 2000.00,
+        "estrellas": "**",
+        "detalles": "Juego de peleas en 2D del popular anime Dragon Ball, aqui se narraran bastantes sucesos que pasaron en el anime y manga, disponible para PC, PS4, Ps5, Xbox One y Xbox Series"
+    },    {
+        "id": "Juego_9",
+        "nombre": "Crash Bandicoot Nsane Trilogy",
+        "imagen": "imagenes/crash_bandicoot.jpg",
+        "precio": 8000.00,
+        "estrellas": "***",
+        "detalles": "Trilogia reamsterizada de los primeros Crash Bandicoot, incluye contenido adicional descargable, disponible para PC, Xbox One, Xbox Series, PS4 y PS5"
+    }
+]
